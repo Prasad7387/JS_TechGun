@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function Student (first,last,age,cls){
+            this.firstName=first;
+            this.lastName=last;
+            this.age=age;
+            this.class=cls;
+            // this.nationality="india"
+        //     this.name=function(){
+        //         return this.firstName + " " + this.lastName
+        //     }
+         }
+
+        var stud1 =new Student("prasad","lonkar",25,"dip" )
+        var stud2 =new Student("pooja","lonkar",25,5 )
+        // console.log(stud1);
+        
+        // stud1.nationality="india";
+
+        // Student.prototype.location="pune"
+
+        Student.prototype.name=function(){
+            return  this.firstName+ " " + this.lastName;
+        }
+
+        console.log(stud1,stud2);
+        
+    </script>
+</body>
+</html>
