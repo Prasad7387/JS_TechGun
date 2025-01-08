@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let person={
+            name:"prasad",
+            lastname:"lonkar",
+            age:21
+        };
+
+
+        console.log(person);
+
+        console.log(person.name);
+        console.log(person.lastname);
+        // ================================================ 
+        console.log('height' in person)
+        console.log('age' in person);
+        // ====================================================== 
+
+
+        // access using for and in keyword =============================
+
+
+        for(let key in person){
+            // console.log(key);
+
+            console.log((`${key} : ${person[key]}`));
+            
+            
+        }
+    </script>
+</body>
+</html>
