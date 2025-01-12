@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- <ul>
+        <li class="cl1">list1</li>
+        <li id="first">list2</li>
+        <li class="cl1">list3</li>
+    </ul> -->
+
+
+
+    <h2 class="intro" >hea 1</h2>
+<div class="div1">
+    <p class="intro">para 1</p>
+
+    <h2 class="intro">hea 2</h2>
+    <p>para 2</p>
+
+    <h2 >hea 3</h2>
+    <p class="intro">para 3</p>
+</div>
+
+
+    <script>
+        // getElementbyId ===================================
+
+        let elm=document.getElementById("first")
+        console.log(elm);
+
+        //InnerHtm; ========================
+
+        console.log(elm.innerHTML);
+
+        elm.innerHTML=`<p>prasad</p>`
+
+
+
+        // *********select element by class *************************************************** 
+        
+        let p= document.getElementsByClassName("cl1")
+        
+        for(let i=0;i < p.length;i++){
+            p[i].innerHTML="<p>prasad</p>"
+        }
+
+
+                // *********select element by tag Name*************************************************** 
+
+
+                let n=document.getElementsByTagName("h2")
+                for(i=0;i<n.length;i++){
+                    n[i].innerHTML="lonkar"
+                }
+
+                
+                 // *********Query selctor *************************************************** 
+
+                //  let q=document.querySelector("p.intro")
+                //  q.innerHTML="hello"
+                //  console.log(q);
+                 
+
+                let elm1=document.querySelectorAll("p.intro")
+
+                console.log(elm);
+
+                for (i=0;i<elm.length;i++){
+                    elm[i].innerHTML="karvenager"
+                }
+                
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>heading 1</h2>
+    <ul >
+        <li id="intro">1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+    </ul>
+    <ul>
+        <li>a</li>
+        <li>b</li>
+        <li>c</li>
+        <li>d</li>
+    </ul>
+    <script>
+         let elm=document.getElementById("intro")
+         console.log(elm);
+         
+        //  let prt=elm.parentElement
+        //  prt.innerHTML="lonkar"
+        //  console.log(prt);
+
+
+        // let elm2 =document.getElementById("intro")
+        // let node = elm2.lastElementChild
+        // console.log((node));
+        
+        let elm2 =document.getElementById("intro")
+        let node = elm2.children
+        console.log((node));
+         
+    </script>
+</body>
+</html>
