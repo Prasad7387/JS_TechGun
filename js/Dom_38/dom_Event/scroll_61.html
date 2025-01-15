@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 2000px;
+        }
+    </style>
+</head>
+<body>
+    <h1>hello</h1>
+
+    <script>
+        // window.addEventListener('scroll',function(){
+        //     console.log("scrolling");
+            
+        // })
+
+
+        // ===================== scroll up and down 
+
+        // window.addEventListener('wheel',function(event){
+        //     if(event.deltaY < 0){
+        //         console.log("up");
+                
+        //     }else if(event.deltaY > 0){
+        //         console.log("down");
+                
+        //     }
+        // })
+
+
+
+        // ============ chage color ======= 
+
+        window.addEventListener('scroll',function(){
+            if(window.pageYOffset > 150){
+                document.body.style.background="green"
+            }else{
+                document.body.style.background="yellow";
+                // alert("stop scrolling")
+            }
+        })
+    </script>
+</body>
+</html>

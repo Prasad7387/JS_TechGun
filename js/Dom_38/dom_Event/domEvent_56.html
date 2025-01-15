@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <button id="btn" onclick="clickMe()">
+        click me!!!
+    </button> -->
+    <button id="btn" >
+        click me!!!
+    </button>
+    <script>
+        // function clickMe(){
+        //     alert("done")
+        // }
+
+        // let btn=document.getElementById("btn");
+        // btn.addEventListener('click',function(){
+        //     alert("click done")
+        // })
+
+        let btn= 
+        document.getElementById("btn");
+
+        btn.addEventListener("click",function(){
+            console.log("click activted");
+            
+        })
+
+        btn.addEventListener("mouseover",function(){
+            console.log("over activted");
+            
+        })
+
+
+        btn.addEventListener("mouseleave",function(){
+            console.log("leave activated");
+            
+        })
+    </script>
+</body>
+</html>
