@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <button id="btn">clear</button>
+    <script>
+        // setTimeout(myFunction,3000)
+
+        // function myFunction(){
+        //     alert("prasad")
+        // }
+
+        let t1=setInterval(fun,2000)
+
+        function fun(){
+            console.log("prasad");
+            
+        }
+
+        let btn=document.getElementById("btn")
+
+        btn.addEventListener("click",function(){
+            clearInterval(t1)
+        })
+        // setInterval(xyz,2000)
+
+        // function xyz(){
+        //     console.log('elllooooooo ');
+            
+        // }
+    </script>
+</body>
+</html>

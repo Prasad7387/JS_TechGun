@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <style>
+         /* body{
+            background-color: red;
+         } */
+    </style> -->
+
+
+
+    <!-- example 2=============================
+      -->
+
+      <style>
+
+      </style>
+</head>
+<body>
+    <!-- <button id="btn1">ggl</button>
+    <script>
+        // console.log(window.innerHeight);
+        // console.log(window.innerWidth);
+        // console.log(window.outerHeight);
+        // console.log(window.outerWidth);
+
+
+        // let btn1=document.getElementById('btn1')
+
+        // btn1.addEventListener('click',function(){
+        //     window.open()
+        // })
+    </script> -->
+
+    <!-- example 2=============================
+      -->
+    <button id="btn1">
+        google
+    </button>
+
+    <button id="btn2">
+        yahoo
+    </button>
+
+    <button id="btn3">
+        close
+    </button>
+      <script>
+        let btn1=document.getElementById('btn1')
+        let btn2=document.getElementById('btn2')
+        let btn3=document.getElementById('btn3')
+let win;
+
+        let url="http://www.google.com";
+        let feature="height=200 width=200"
+
+        btn1.addEventListener("click",function(){
+            win=window.open(url,'google',feature)
+        });
+
+        btn2.addEventListener('click',function(){
+            window.open(`http://www.yahoo.com`,'google')
+        });
+
+        btn.addEventListener('click',function(){
+            win.close()
+        })
+      </script>
+</body>
+</html>
