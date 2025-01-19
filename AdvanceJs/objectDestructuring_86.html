@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+// noraml way =========== 
+
+let obj={
+    book_name:"advance js",
+    price:200,
+    pages:233
+}
+
+// console.log(obj);
+// obj.book_name;
+// let book_price =obj.price
+// console.log(book_price);
+
+
+
+// es6 way============== 
+
+
+let{book_name,pages,price}=obj
+console.log(book_name);
+console.log(pages);
+console.log(price);
+
+
+    </script>
+</body>
+</html>
