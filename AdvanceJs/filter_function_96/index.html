@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // filterfunction ======= 
+        // using arrow function :-
+
+
+        let arr=[2,22,13,5,6,23,7]
+
+// shrot cut:-
+        // let arr1=arr.filter(val => val>10)
+        // console.log(arr1);
+
+
+        
+            
+        let arr1=arr.filter((val)=>{
+            return val>10
+        })
+            console.log(arr1);
+            
+            
+// anonymous:-
+let arr2=arr.filter(function(val){
+    return val >10
+})        
+        console.log(arr2);
+        
+    </script>
+</body>
+</html>

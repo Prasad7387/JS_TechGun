@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // noraml way to double value of array ================
+        let arr=[2,3,4,5,6]
+
+        let arr1=[]
+        for(i=0;i<arr.length;i++){
+            arr1[i]=arr[i]*2
+        }
+
+        console.log(arr1);
+
+
+
+        // map useing anonomyus ========================= 
+
+        let pra=[2,3,4,5,6]
+
+        let pra1=pra.map(function(val){
+            return val*2
+        })
+        console.log(pra1);
+        
+
+                // map using arrow ========================= 
+
+        let abc=[2,3,4,5,6]        
+
+        let abc1=abc.map((n)=>n*2)
+        console.log(abc1);
+        
+
+        
+
+        
+    </script>
+</body>
+</html>
