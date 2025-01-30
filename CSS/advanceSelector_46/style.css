@@ -1,0 +1,55 @@
+li{
+    color: red;
+}
+
+#list2{
+    color: green;
+}
+
+.class5{
+    color: aqua;
+}
+
+a:hover{
+    color: aquamarine;
+}
+
+p::first-line{
+    color: red;
+}
+
+a[herf="https://www.google.com"]{
+    color:blue;
+}
+
+/* *{
+    border: 1px solid red;
+} */
+
+/* adjuscent selector    */
+div a{
+    color: yellow;
+}
+
+/* direct child */
+div>a{
+    color: burlywood;
+
+}
+
+/* just sibling  */
+
+div+a{
+    color: aqua;
+}
+
+/* normal sibling  */
+
+div ~a{
+    color: cadetblue;
+}
+
+/* add selector */
+h1,p{
+color: rosybrown;
+}

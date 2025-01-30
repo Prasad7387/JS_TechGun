@@ -1,0 +1,11 @@
+.d{
+    border: 1px solid red;
+    width: 50%;
+    height: 100px;
+    /* display: inline; */
+    display: inline-block;
+}
+#div1{
+    /* display: none; */
+    visibility: hidden;
+}

@@ -1,0 +1,19 @@
+#parent{
+    border: 1px solid;
+    /* width: 10cm ; */
+    /* width: 100mm; */
+    /* width:500px; */
+    /* width: 50pt; */
+    /* width:  20pc; */
+    width: 50vh;
+    height: 50vh;
+
+}
+.child{
+border: 1px solid red;
+/* width: 50%; */
+    
+}
+html{
+    font-size: 14px;
+}

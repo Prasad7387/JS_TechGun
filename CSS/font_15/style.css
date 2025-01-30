@@ -1,0 +1,20 @@
+p{
+font-size: 20px;
+/* font-weight: bolder; */
+/* font-style: italic; */
+/* font-variant: small-caps; */
+}
+/* h1{
+
+font-family: 'Courier New', Courier, monospace;
+} */
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 400 */
+
+.uniquifier {
+  font-family: "Playwrite IN", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}

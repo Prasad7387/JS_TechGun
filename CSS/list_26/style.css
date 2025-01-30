@@ -1,0 +1,14 @@
+ul{
+/* list-style-type:decimal ; */
+/* list-style-type: circle; */
+/* list-style: lower-alpha; */
+/* list-style: lower-latin; */
+list-style: upper-alpha;
+/* list-style-image: url(../wallpapre/1292474.jpg);
+list-style-position: inside; */
+}
+ol{
+/* list-style: lower-latin; */
+list-style: georgian;
+
+}

@@ -1,0 +1,22 @@
+#wraper{
+    padding: 20px;
+    margin: 20px;
+}
+a{
+    text-decoration: none;
+    background-color: red;
+    padding: 10px 20px ;
+    color: white;
+    display: inline-block;
+    /* transform: rotate(20deg); */
+    /* transform: scale(2,3); */
+    /* transform: skew(20deg,10deg); */
+    /* transform-origin:   */
+}
+
+
+/* a:hover{
+    display: inline-block;
+    transform: translate(50px, 50px);
+
+} */

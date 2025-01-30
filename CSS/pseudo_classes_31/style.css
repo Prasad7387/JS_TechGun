@@ -1,0 +1,30 @@
+/* li:first-child{
+    color: red;
+
+} */
+
+
+/* li:last-child{
+    color: green;
+} */
+
+/* li:nth-child(5){
+    color: aqua;
+} */
+
+
+li:nth-last-child(4){
+    color: brown;
+}
+
+
+/* focus  */
+
+/* input:focus{
+    background-color:  blueviolet;
+    border: 3px solid black;
+} */
+
+input:hover{
+    background-color: chocolate;
+}

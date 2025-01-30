@@ -1,0 +1,14 @@
+#d{
+ height: 500px;
+ border: 2px solid black;
+ 
+
+ /* background-image: linear-gradient(green,blue,red); */
+ /* background-image: linear-gradient(to right,red,blue,aqua); */
+ /* background-image: linear-gradient((to left,red,blue,aqua )); */
+
+
+
+background-image: radial-gradient(red,blue,aqua);
+background-image: radial-gradient(circle,red,blue,aqua);
+}
